@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bot Bot – Data Processing Information (DPA)</title>
+<style>
+:root{--fg:#1d2433;--muted:#5b6475;--accent:#2f5bea;--bg:#f6f7fb;--card:#fff;--line:#e3e6ee}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--fg);background:var(--bg);line-height:1.6}
+header{background:var(--card);border-bottom:1px solid var(--line)}
+.wrap{max-width:780px;margin:0 auto;padding:0 20px}
+header .wrap{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;flex-wrap:wrap;gap:8px}
+.brand{font-weight:700;font-size:1.15rem;color:var(--fg);text-decoration:none}
+nav a{color:var(--muted);text-decoration:none;margin-left:16px;font-size:.95rem}nav a:hover{color:var(--accent)}
+main .wrap{background:var(--card);border:1px solid var(--line);border-radius:10px;margin:28px auto;padding:28px 32px}
+h1{margin-top:0;font-size:1.7rem}h2{font-size:1.2rem;margin-top:1.8em}
+.muted{color:var(--muted);font-size:.92rem}
+.ph{background:#fff3c4;padding:0 4px;border-radius:3px;font-family:monospace;font-size:.92em}
+.note{background:#eef3ff;border-left:4px solid var(--accent);padding:10px 14px;border-radius:4px;margin:16px 0}
+.legal{background:#fff7e6;border-left:4px solid #e59a00;padding:10px 14px;border-radius:4px;margin:16px 0;font-size:.93rem}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:.95rem}th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}th{background:#f1f3f8}
+footer{text-align:center;color:var(--muted);font-size:.85rem;padding:10px 20px 30px}
+</style>
+</head>
+<body>
+<header><div class="wrap"><a class="brand" href="index.html">Bot Bot</a>
+<nav><a href="index.html">Overview</a><a href="eula.html">Terms (EULA)</a><a href="privacy.html">Privacy</a><a href="dpa.html">DPA</a><a href="status.html">Status</a></nav></div></header>
+<main><div class="wrap">
+<h1>Data Processing Information (DPA)</h1>
+<p class="muted">Last updated: October 16, 2026</p>
+<div class="legal"><strong>Draft – legal review advisable.</strong> This page describes how data is processed for Bot Bot. It is a summary, not a signed data processing agreement. Under GDPR Art. 28, the relationship between the company (controller) and the AI assistant provider (processor) should be covered by a written agreement; the provider's own DPA/terms should be checked and referenced here. <span class="ph">[LINK TO / REFERENCE THE AI ASSISTANT PROVIDER'S DPA]</span></div>
+
+<h2>1. Roles</h2>
+<table>
+<tr><th>Role</th><th>Who</th></tr>
+<tr><td>Data controller</td><td>Twice As Nice ApS, Hollændervej 7, 3TV, 1855 Frederiksberg, Denmark, CVR 42955280. It controls its own bookkeeping data.</td></tr>
+<tr><td>Data processor</td><td>The AI assistant service provider (Grok Bot): <span class="ph">[AI ASSISTANT PROVIDER LEGAL NAME / ADDRESS]</span>. It processes the data only to carry out the owner's instructions.</td></tr>
+<tr><td>Sub-processors</td><td><span class="ph">[LIST OF THE PROVIDER'S SUB-PROCESSORS, e.g. cloud hosting – TO BE CONFIRMED WITH THE PROVIDER]</span></td></tr>
+<tr><td>Source system</td><td>Visma e-conomic, where the company's bookkeeping is kept. The company's use of e-conomic is covered by its own agreement with Visma e-conomic.</td></tr>
+</table>
+<p>Bot Bot is used only internally by Twice As Nice ApS. No other company's data is processed.</p>
+
+<h2>2. Subject and purpose</h2>
+<p>Helping the company owner with the company's own bookkeeping: reading data from e-conomic and preparing draft journal entries and draft invoices for her to review and book.</p>
+
+<h2>3. Types of data</h2>
+<ul>
+  <li>Accounts, entries, journals, invoices and products</li>
+  <li>Customer and supplier records, which may include contact details (name, address, email, phone) of business contacts or private individuals</li>
+</ul>
+<p>No special categories of personal data (GDPR Art. 9) are intentionally processed.</p>
+
+<h2>4. Categories of people</h2>
+<p>Contacts at customers and suppliers, and any private individuals who are customers or suppliers.</p>
+
+<h2>5. Nature of processing</h2>
+<ul>
+  <li>Reading data via the e-conomic API</li>
+  <li>Creating draft journal entries and draft invoices (no booking, sending or payment)</li>
+  <li>Temporary caching while a task is carried out</li>
+</ul>
+
+<h2>6. Instructions and limits</h2>
+<ul>
+  <li>Processing happens only on the owner's instructions.</li>
+  <li>Data is not shared with third parties beyond the AI assistant service processing it.</li>
+  <li>Data is not used to train AI models.</li>
+  <li>Data is not sold or used for any other purpose.</li>
+</ul>
+
+<h2>7. Retention and deletion</h2>
+<p>Cached data is kept for less than 24 hours and then deleted. Bookkeeping records remain in e-conomic. When access is revoked in e-conomic, no further data can be fetched.</p>
+
+<h2>8. Security measures</h2>
+<ul>
+  <li>Access tokens stored securely as secrets; never sent by email or chat.</li>
+  <li>Single user (the owner) and single agreement (the company's own).</li>
+  <li>Draft-only write access in practice; the owner books everything herself.</li>
+  <li>Access revocable at any time in e-conomic's settings.</li>
+</ul>
+<p><span class="ph">[ADD THE PROVIDER'S DOCUMENTED SECURITY MEASURES, IF ANY – do not list certifications unless confirmed]</span></p>
+
+<h2>9. Location and transfers</h2>
+<p><span class="ph">[WHERE DATA IS PROCESSED / ANY THIRD-COUNTRY TRANSFERS AND SAFEGUARDS (e.g. SCCs) – TO BE CONFIRMED WITH THE PROVIDER]</span></p>
+
+<h2>10. Personal data breaches</h2>
+<p>If a breach is discovered, the company will assess it and, where required, notify Datatilsynet within 72 hours (GDPR Art. 33). <span class="ph">[PROVIDER'S BREACH NOTIFICATION COMMITMENT – TO BE CONFIRMED]</span></p>
+
+<h2>11. Contact</h2>
+<p>Vicky Chen, Twice As Nice ApS<br>Email: <a href="mailto:vee.chen@gmail.com">vee.chen@gmail.com</a><br>Phone: <a href="tel:+4552822734">+45 52 82 27 34</a></p>
+</div></main>
+<footer>Bot Bot is a private internal integration operated by Twice As Nice ApS, Hollændervej 7, 3TV, 1855 Frederiksberg, Denmark &middot; CVR 42955280 &middot; <a href="mailto:vee.chen@gmail.com">vee.chen@gmail.com</a><br>Bot Bot is not affiliated with or endorsed by Visma e-conomic.</footer>
+</body>
+</html>
